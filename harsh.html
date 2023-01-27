@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WORLD CLOCK !</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> Clock Area </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="container my-3">
+            <header>
+
+
+
+        </div>
+
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Welcome To WORLD Clock</h1>
+            <p class="fs-5 text-muted">A world clock is a clock which displays the time for various cities around the
+                world. A moving circular map of the world, rotating inside a stationary 24-hour dial ring.
+                Alternatively, the disc can be stationary and the ring moving.</p>
+        </div>
+        </header>
+
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">INDIA <i class="bi bi-clock-fill"></i></h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title" id="INDIA"></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li> DAY IS TUESDAY</li>
+                                <li> TEMP IS 12 &#8451</li>
+                                <li> UV IS WEAK </li>
+                                <li> VISIBILITY IS 8 KM  </li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">FOR MORE DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">USA <i class="bi bi-clock-fill"></i></h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title" id="usa"></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>DAY IS TUESDAY</li>
+                                <li> TEMP IS 11 &#8451</li>
+                                <li> UV IS NORAML </li>
+                                <li> VISIBILITY IS 16 KM  </li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">FOR MORE DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">CHINA <i class="bi bi-clock-fill"></i></h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title" id="CHINA"></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>DAY IS TUESDAY</li>
+                                <li> TEMP IS 2 &#8451</li>
+                                <li> UV IS VERY LOW  </li>
+                                <li> VISIBILITY IS 20 KM  </li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">FOR MORE DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                  <label for = "appt"> select a Alram:</label>
+                  <input type="time" id="appt" name="appt">
+
+
+
+            <h2 class="display-6 text-center mb-4">All Major Time Zones Of The Globe.</h2>
+
+            <div class="table-responsive">
+                <table class="table text-center">
+                    <thead>
+                        <tr>
+                            <th style="width: 10%;"></th>
+                            <th style="width: 18%;"> Temperature</th>
+                            <th style="width: 18%;">Wind speed</th>
+                            <th style="width: 18%;">Humidity</th>
+                            <th style="width: 22%;">Average sunrise</th>
+                            <th style="width: 22%;">Average sunset</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="text-start">Average temp</th>
+                            <td>28.8 &#8451</td>
+                            <td>15 kmph</td>
+                            <td>62%</td>
+                            <td>07:10 AM</td>
+                            <td>05:31 PM</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">HIGH Temp</th>
+                            <td>50.2 &#8451</td>
+                            <td>35 kmph</td>
+                            <td>99.2%</td>
+                            <td>05:52 AM</td>
+                            <td>04:17 PM</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="text-start">LOW Temp</th>
+                            <td>-9 &#8451</td>
+                            <td>04 Kmph</td>
+                            <td>01%</td>
+                            <td>08:10 AM</td>
+                            <td>9:01 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+        </main>
+        
+        
+        <footer class="pt-4 my-md-5 pt-md-5 border-top" >
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
+                    <small class="d-block mb-3 text-muted">© 2017–2022</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for
+                                developers</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a>
+                        </li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+       
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        setInterval(() => {
+
+
+            const date = new Date();
+            console.log(
+                usa.innerHTML = date.toLocaleString('en-US', {
+                    timeZone: 'America/Los_Angeles',
+                })
+            );
+            console.log(
+                INDIA.innerHTML = date.toLocaleString('en-US', {
+                    timeZone: 'Asia/kolkata',
+                })
+            );
+            console.log(
+                CHINA.innerHTML = date.toLocaleString('en-US', {
+                    timeZone: 'Asia/Shanghai',
+                })
+            );
+
+        }, 1000);
+
+
+
+
+
+
+    </script>
+</BOdy>
+
+</HTml>
